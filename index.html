@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+<!--     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" /> -->
+
+    <!--
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>Home</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+<!--     <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Hello World!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" /> -->
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/bbc08e0762.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--
+      This is the body of the page
+      Look at the elements and see how they appear in the rendered page on the right
+      Each element is defined using tags, with < and > indicating where each one opens and closes
+      There are elements for sections of the page, images, text, and more
+      The elements include attributes referenced in the CSS for the page style
+    -->
+
+    <!-- The wrapper and content divs set margins and positioning -->
+    <nav>
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contacts.html">Contact</a></li>
+        <li class="dropdown">
+            <a href="about.html" class="dropbtn">About&nbsp&nbsp&nbsp<i class="arrow down"></i></a>
+            <div class="dropdown-content">
+              <a href="about.html">Bio</a>
+              <a href="resume.html">Resume</a>
+            </div>
+        </li>
+      </ul>
+      <div class="socials">
+        <a href="https://www.instagram.com/jeremyneto/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/jeremy-neto-3402941b6/"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </nav>
+
+    <div class="mainpage">
+      <div class="header">
+        <div class="title">
+          <p>Hi, I'm</p>
+          <h1>
+            <a href="about.html">Jeremy Neto</a>
+          </h1>
+          <!-- <p>Software Engineer | REALTOR®</p> -->
+          <div class="description">
+            <p>I'm a Software Engineer based out of Chicago.</p>
+          </div>
+          <div class="buttons">
+            <div class="buttonlinkedin">
+              <a id="resumebutton"href="Jeremy_Neto_Resume.pdf" download>
+              <button onclick="linkedinLog()" class="button buttonlinkedin"><span>Resume</span></button>
+              </a>
+            </div>
+            <div class="buttonlinkedin">
+              <a id="resumebutton"href="mailto:jeremyneto2023@u.northwestern.edu">
+              <button onclick="linkedinLog()" class="button buttonlinkedin"><span>Contact Me</span></button>
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <img
+          class="profile"
+          src="https://cdn.glitch.global/623a0051-ccac-4feb-8c2a-e1aefe9534ee/BU9A2996.JPG?v=1663969738191"
+          alt="Profile Picture for Jeremy Neto"
+        />
+<!--         <div class="medialinks">
+          <button onclick="linkedinLog()" class="button buttonlinkedin"><span>Connect with me on Linkedin</span></button>
+        </div> -->
+      </div>
+      <div class="contentlanding">
+        <div class="proj1">
+            <a href="projects.html"><img src="micropic.png" alt="Pic of Micro app"></a>
+            <p>An app I worked on junior year to connect entrepreneurs.</p>
+        </div>
+        <div class="proj2">
+            <a href="projects.html"><img src="unfounder.png" alt="Picture of unfound project"></a>
+            <p>An online quiz I worked on for a fellow startup at Northwestern called Unfound.</p>
+        </div>
+
+      </div>
+    </div>
+    <footer>
+        <!-- <p>Author: Hege Refsnes</p>
+        <p><a href="mailto:hege@example.com">hege@example.com</a></p> -->
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+<!--     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" /> -->
+
+    <!--
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>About</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+<!--     <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Hello World!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" /> -->
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bbc08e0762.js" crossorigin="anonymous"></script>
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!--
+      This is the body of the page
+      Look at the elements and see how they appear in the rendered page on the right
+      Each element is defined using tags, with < and > indicating where each one opens and closes
+      There are elements for sections of the page, images, text, and more
+      The elements include attributes referenced in the CSS for the page style
+    -->
+
+    <!-- The wrapper and content divs set margins and positioning -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contacts.html">Contact</a></li>
+        <li class="dropdown">
+            <a href="about.html" class="dropbtn" aria-current="page">About&nbsp&nbsp&nbsp<i class="arrow down"></i></a>
+            <div class="dropdown-content">
+              <a href="about.html">Bio</a>
+              <a href="resume.html">Resume</a>
+            </div>
+        </li>
+      </ul>
+      <div class="socials">
+        <a href="https://www.instagram.com/jeremyneto/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/jeremy-neto-3402941b6/"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </nav>
+
+    <div class="mainpage">
+      <div class="headerabout">
+        <div class="greeting">
+        <h1>
+        Hey, Whats Up!
+        </h1>
+        </div>
+<!--         <div class="medialinks">
+          <button onclick="linkedinLog()" class="button buttonlinkedin"><span>Connect with me on Linkedin</span></button>
+        </div> -->
+      </div>
+        <div class="content">
+          <div class="text">
+            <div class="introsec">
+              <div class="whoami">
+                 <h2>
+                  Who am I?
+                </h2>
+                <p>
+                  Hey, I'm Jeremy. I'm a senior studying Computer Science.
+                  I'm originally from Orlando, Florida but now live in Chicao to go to Northwestern University.
+                  In addition to being a software engineer I'm also a licensed real estate agent in Florida.
+                  In my free time I like to do things like brazilian jiu-jitsu, attend concerts, and travel.
+                  Overall, I'm facinated by all things computer science, business, and real estate and if you
+                  ever want to talk about those things feel free to reach out to me.
+                </p>
+              </div>
+              <img
+                  class="profile"
+                  src="cheesin.jpg"
+                  alt="Profile Picture fo Jeremy Neto"
+              />
+            </div>
+
+              <!-- <div class="interests">
+                 <h2>
+                  Interests
+                </h2>
+                <ul>
+                  <li>Business and Entrepreneurship</li>
+                  <li>Blockchain and Crypto / Web3</li>
+                  <li>Real Estate</li>
+                  <li>Music / Concerts</li>
+                  <li>Vinyl</li>
+                  <li>BJJ</li>
+                  <li>Social Media Marketing</li>
+                  <li>Reading</li>
+
+                </ul>
+              </div> -->
+        </div>
+      </div>
+      <!-- <div class="buttons">
+        <!-- <div class="buttonclasses">
+          <a href="">
+          <button onclick="assignmentLog()" class="button buttonclasses"><span>See my Assignments</span></button>
+          </a>
+        </div> -->
+        <!-- <div class="buttonlinkedin">
+          <a href="https://www.linkedin.com/in/jeremy-neto-3402941b6//">
+          <button onclick="linkedinLog()" class="button buttonlinkedin"><span>Connect with me on Linkedin</span></button>
+          </a>
+        </div>
+      </div> -->
+    </div>
+  </body>
+</html>
