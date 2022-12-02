@@ -599,6 +599,7 @@ color:black;
   background-color: #C5BC8E;
   color: white;
   border-radius: 12px;
+  font-weight: bolder;
 }
 
 .buttonlinkedin :hover {
