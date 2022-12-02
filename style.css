@@ -420,6 +420,9 @@ color:black;
   text-align: center;
 }
 
+.instamedia iframe{
+  height: 475px
+}
 .emailmedia{
   display: flex;
   flex-direction: column;
